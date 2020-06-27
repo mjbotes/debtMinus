@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "OneT-Platform": {
+    "debtMinus": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/OneT-Platform",
+            "outputPath": "dist/debtMinus",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "OneT-Platform:build"
+            "browserTarget": "debtMinus:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "OneT-Platform:build:production"
+              "browserTarget": "debtMinus:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "OneT-Platform:build"
+            "browserTarget": "debtMinus:build"
           }
         },
         "test": {
@@ -116,16 +116,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "OneT-Platform:serve"
+            "devServerTarget": "debtMinus:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "OneT-Platform:serve:production"
+              "devServerTarget": "debtMinus:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "OneT-Platform"
+  "defaultProject": "debtMinus"
 }
