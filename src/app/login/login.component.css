@@ -1,0 +1,17 @@
+
+form{
+    text-align: center;
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+button:hover{
+    font-size: 19px;
+}
